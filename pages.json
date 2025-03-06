@@ -1,0 +1,31 @@
+{
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "数据列表"
+			}
+		},
+		{
+			"path": "pages/infomation/form",
+			"style": {
+				"navigationBarTitleText": "数据录入"
+			}
+		},
+		{
+			"path": "pages/infomation/details",
+			"style": {
+				"navigationBarTitleText": "股票查询",
+				"navigationStyle": "custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	}
+}
