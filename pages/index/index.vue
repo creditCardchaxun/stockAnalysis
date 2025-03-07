@@ -98,11 +98,9 @@
 <style>
 	.sticky {
 	    position: fixed;
+	 /*   top:calc(44px + constant(safe-area-inset-top));
+		top:calc(44px + env(safe-area-inset-top)); */
 			/* #ifdef H5 */
-	    top:calc(44px + constant(safe-area-inset-top));
-			top:calc(44px + env(safe-area-inset-top));
-			/* #endif */
-			/* #ifndef H5 */
 				top:0;
 			/* #endif */
 	    left:0;
